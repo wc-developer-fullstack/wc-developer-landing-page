@@ -11,6 +11,10 @@ const FAQ: React.FC = () => {
       answer: "O prazo varia conforme a complexidade, mas projetos padrão de Landing Pages de alta conversão costumam ser entregues entre 5 a 10 dias úteis, incluindo design e desenvolvimento mobile-first."
     },
     {
+      question: "Você integra meios de pagamento (Cartão, PIX, Boleto)?",
+      answer: "Sim, sou especialista em integração de gateways como Stripe, ASAAS, Mercado Pago e Pagar.me. Posso criar desde checkouts simples até sistemas complexos de assinaturas recorrentes (SaaS)."
+    },
+    {
       question: "Você trabalha com React ou apenas HTML/JS puro?",
       answer: "Utilizo a ferramenta certa para cada objetivo. Para sites institucionais rápidos, foco em HTML/JS puro com Tailwind para performance extrema. Para sistemas complexos como Dashboards, utilizo React, Next.js e TypeScript."
     },

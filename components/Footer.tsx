@@ -21,13 +21,13 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="flex gap-6">
-          <a href="#" className="w-12 h-12 bg-zinc-900 rounded-full flex items-center justify-center text-zinc-400 hover:text-emerald-400 hover:border-emerald-500/50 border border-zinc-800 transition-all">
+          <a href="https://github.com/wc-developer-fullstack" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-zinc-900 rounded-full flex items-center justify-center text-zinc-400 hover:text-emerald-400 hover:border-emerald-500/50 border border-zinc-800 transition-all">
             <Github className="w-5 h-5" />
           </a>
-          <a href="#" className="w-12 h-12 bg-zinc-900 rounded-full flex items-center justify-center text-zinc-400 hover:text-emerald-400 hover:border-emerald-500/50 border border-zinc-800 transition-all">
+          <a href="https://www.linkedin.com/in/willian-carlos-31a436237" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-zinc-900 rounded-full flex items-center justify-center text-zinc-400 hover:text-emerald-400 hover:border-emerald-500/50 border border-zinc-800 transition-all">
             <Linkedin className="w-5 h-5" />
           </a>
-          <a href="#" className="w-12 h-12 bg-zinc-900 rounded-full flex items-center justify-center text-zinc-400 hover:text-emerald-400 hover:border-emerald-500/50 border border-zinc-800 transition-all">
+          <a href="https://www.instagram.com/programadorwc" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-zinc-900 rounded-full flex items-center justify-center text-zinc-400 hover:text-emerald-400 hover:border-emerald-500/50 border border-zinc-800 transition-all">
             <Instagram className="w-5 h-5" />
           </a>
         </div>

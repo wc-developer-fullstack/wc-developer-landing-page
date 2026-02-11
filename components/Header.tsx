@@ -133,7 +133,7 @@ const Header: React.FC = () => {
           {/* Action Button */}
           <div className="hidden md:flex items-center gap-4">
             <a 
-              href="https://wa.me/5519997603480"
+              href="https://wa.me/5519998295069"
               className="group relative flex items-center gap-2 bg-emerald-500 text-zinc-950 px-6 py-2.5 rounded-full text-xs font-black uppercase tracking-wider transition-all hover:scale-105 hover:bg-emerald-400 active:scale-95 shadow-lg shadow-emerald-500/20 overflow-hidden"
             >
               <span className="relative z-10">Orçamento</span>
@@ -187,23 +187,23 @@ const Header: React.FC = () => {
           <div className={`mt-12 transition-all duration-700 delay-500 ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="text-[10px] font-black text-emerald-500 uppercase tracking-[0.5em] mb-6 opacity-50">Contato & Social</div>
             <div className="flex flex-wrap gap-4 mb-8">
-               <a href="#" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-2xl flex items-center justify-center text-zinc-400 hover:text-emerald-400 transition-colors">
+               <a href="https://github.com/wc-developer-fullstack" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-2xl flex items-center justify-center text-zinc-400 hover:text-emerald-400 transition-colors">
                   <Github className="w-5 h-5" />
                </a>
-               <a href="#" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-2xl flex items-center justify-center text-zinc-400 hover:text-emerald-400 transition-colors">
+               <a href="https://www.linkedin.com/in/willian-carlos-31a436237" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-2xl flex items-center justify-center text-zinc-400 hover:text-emerald-400 transition-colors">
                   <Linkedin className="w-5 h-5" />
                </a>
-               <a href="#" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-2xl flex items-center justify-center text-zinc-400 hover:text-emerald-400 transition-colors">
+               <a href="https://www.instagram.com/programadorwc" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-2xl flex items-center justify-center text-zinc-400 hover:text-emerald-400 transition-colors">
                   <Instagram className="w-5 h-5" />
                </a>
-               <a href="mailto:contato@wcdv.com.br" className="flex items-center gap-3 bg-zinc-900 border border-zinc-800 px-6 rounded-2xl text-zinc-400 hover:text-white transition-colors">
+               <a href="mailto:wcdevprojects@gmail.com" className="flex items-center gap-3 bg-zinc-900 border border-zinc-800 px-6 rounded-2xl text-zinc-400 hover:text-white transition-colors">
                   <Mail className="w-5 h-5" />
                   <span className="text-sm font-bold">E-mail</span>
                </a>
             </div>
 
             <a 
-              href="https://wa.me/5519997603480"
+              href="https://wa.me/5519998295069"
               className="bg-emerald-500 text-zinc-950 w-full py-5 rounded-2xl font-black text-lg flex items-center justify-center gap-3 shadow-[0_20px_40px_rgba(16,185,129,0.2)] hover:bg-emerald-400 transition-all"
             >
               Iniciar Projeto

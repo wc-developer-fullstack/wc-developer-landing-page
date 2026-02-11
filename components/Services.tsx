@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Layout, Zap, Cpu, Search, Layers, MousePointer2, BarChart3, ChevronRight, Database, Workflow } from 'lucide-react';
+import { Layout, Cpu, ChevronRight, Database, Workflow, CreditCard, BarChart3, Layers } from 'lucide-react';
 
 const Services: React.FC = () => {
   const services = [
@@ -9,6 +9,12 @@ const Services: React.FC = () => {
       desc: 'Sistemas completos ponta a ponta, unindo interfaces ágeis com backends escaláveis em C# ou Node.',
       icon: Cpu,
       color: 'from-blue-400 to-indigo-500'
+    },
+    {
+      title: 'Integração de Pagamentos',
+      desc: 'Implementação de checkouts seguros e automação de cobranças via Stripe, Mercado Pago e ASAAS.',
+      icon: CreditCard,
+      color: 'from-orange-400 to-amber-600'
     },
     {
       title: 'Soluções Supabase',
@@ -27,12 +33,6 @@ const Services: React.FC = () => {
       desc: 'Landing Pages e Dashboards desenvolvidos com foco em Core Web Vitals e UX minimalista.',
       icon: Layout,
       color: 'from-purple-400 to-pink-500'
-    },
-    {
-      title: 'Sistemas Legados & Desktop',
-      desc: 'Manutenção e evolução de sistemas em Visual Basic e .NET, garantindo estabilidade e novas funcionalidades.',
-      icon: Layers,
-      color: 'from-zinc-400 to-zinc-600'
     },
     {
       title: 'Consultoria de Arquitetura',

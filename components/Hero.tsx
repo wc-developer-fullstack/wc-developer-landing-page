@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
           </span>
-          <span className="text-emerald-400/80 text-[10px] font-bold uppercase tracking-[0.3em]">Sistemas Web • Automação • Performance</span>
+          <span className="text-emerald-400/80 text-[10px] font-bold uppercase tracking-[0.3em]">Sistemas Web • Automação • Pagamentos</span>
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[1] tracking-tighter mb-8 animate__animated animate__fadeInUp" style={{ animationDuration: '1.2s' }}>
@@ -54,13 +54,13 @@ const Hero: React.FC = () => {
         </h1>
 
         <p className="text-zinc-400 text-lg md:text-xl max-w-2xl mb-12 font-light leading-relaxed animate__animated animate__fadeInUp" style={{ animationDelay: '0.3s', animationDuration: '1.2s' }}>
-          De interfaces impecáveis em <span className="text-emerald-400/80 font-medium">React</span> a backends robustos em <span className="text-emerald-400/80 font-medium">C#</span> e <span className="text-emerald-400/80 font-medium">Supabase</span>. 
+          De interfaces impecáveis em <span className="text-emerald-400/80 font-medium">React</span> a backends robustos com <span className="text-emerald-400/80 font-medium">integração de pagamentos</span> e <span className="text-emerald-400/80 font-medium">Supabase</span>. 
           Mais de 10 anos orquestrando tecnologia para impulsionar negócios.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-5 justify-center animate__animated animate__fadeInUp" style={{ animationDelay: '0.5s', animationDuration: '1.2s' }}>
           <a 
-            href="https://wa.me/5519997603480"
+            href="https://wa.me/5519998295069"
             className="group relative flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-400 text-zinc-950 px-10 py-5 rounded-2xl font-black text-lg transition-all hover:scale-105 active:scale-95 shadow-[0_20px_50px_rgba(16,185,129,0.2)] overflow-hidden"
           >
             INICIAR PROJETO
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
             <Terminal className="w-4 h-4 text-emerald-500/50" /> .NET_Core
           </div>
           <div className="flex items-center gap-2 animate-float hover:text-emerald-400 transition-colors" style={{ animationDelay: '1.2s' }}>
-            <Sparkles className="w-4 h-4 text-emerald-500/50" /> Supabase_DB
+            <Sparkles className="w-4 h-4 text-emerald-500/50" /> Gateway_Pagamentos
           </div>
           <div className="flex items-center gap-2 animate-float hover:text-emerald-400 transition-colors" style={{ animationDelay: '2.4s' }}>
             <Rocket className="w-4 h-4 text-emerald-500/50" /> Google_Apps_Script

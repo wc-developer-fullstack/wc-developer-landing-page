@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ExternalLink, Bot, BarChart3, Zap } from 'lucide-react';
+import { ExternalLink, Bot, Mic, TrendingUp, Zap } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const projects = [
@@ -14,13 +14,22 @@ const Projects: React.FC = () => {
       color: 'from-emerald-500/20 to-teal-500/5'
     },
     {
-      title: 'Duo Finance Dashboard',
-      url: 'https://duo-finance-demo.netlify.app/',
-      description: 'Dashboard financeiro premium desenvolvido para controle de gastos e investimentos. O foco principal foi a visualização de dados complexos através de gráficos interativos e uma interface minimalista que reduz a carga cognitiva. Utiliza Next.js para garantir SEO e performance de carregamento impecável.',
-      tags: ['Next.js', 'Fintech', 'Data Viz', 'TypeScript'],
-      features: ['Análise de Ativos', 'Relatórios PDF', 'Sync Bancário'],
-      icon: BarChart3,
+      title: 'Contei App',
+      url: 'https://contei.netlify.app/',
+      description: 'Plataforma disruptiva de gestão financeira pessoal que utiliza comandos de voz para simplificar o controle de gastos. Inclui funcionalidades de cofrinho virtual, metas de economia e relatórios analíticos gerados automaticamente. Foco total em acessibilidade e rapidez operacional através de UX fluida.',
+      tags: ['React', 'Voice Control', 'Financial', 'PWA'],
+      features: ['Comando de Voz', 'Cofrinho Virtual', 'Relatórios'],
+      icon: Mic,
       color: 'from-blue-500/20 to-indigo-500/5'
+    },
+    {
+      title: 'WR Agência',
+      url: 'https://wragencia.netlify.app/',
+      description: 'Ecossistema avançado de Social Media Marketing (SMM) projetado para escala. Oferece painel de controle completo para gestão de engajamento social (likes, seguidores, views), estratégias de ranqueamento algorítmico e automação de serviços digitais em tempo real.',
+      tags: ['SMM Panel', 'Marketing', 'Dashboards', 'Performance'],
+      features: ['Painel de Pedidos', 'Ranking de Redes', 'Serviços Avulsos'],
+      icon: TrendingUp,
+      color: 'from-purple-500/20 to-pink-500/5'
     }
   ];
 
@@ -32,21 +41,21 @@ const Projects: React.FC = () => {
           <h3 className="text-5xl md:text-6xl font-bold text-white tracking-tighter">Projetos em Destaque.</h3>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, idx) => (
             <div 
               key={idx} 
-              className={`group relative p-1 rounded-[2.5rem] bg-gradient-to-br transition-all duration-700 hover:scale-[1.02] reveal`}
-              style={{ transitionDelay: `${idx * 200}ms` }}
+              className={`group relative p-1 rounded-[2.5rem] bg-gradient-to-br transition-all duration-700 hover:scale-[1.02] reveal h-full`}
+              style={{ transitionDelay: `${idx * 150}ms` }}
             >
-              <div className="bg-zinc-950 rounded-[2.4rem] p-8 md:p-12 h-full flex flex-col border border-zinc-900 overflow-hidden relative">
+              <div className="bg-zinc-950 rounded-[2.4rem] p-8 md:p-10 h-full flex flex-col border border-zinc-900 overflow-hidden relative">
                 {/* Background Decor */}
                 <div className={`absolute -right-20 -top-20 w-64 h-64 bg-gradient-to-br ${project.color} blur-[80px] opacity-0 group-hover:opacity-100 transition-opacity duration-700`} />
                 
                 <div className="relative z-10 flex flex-col h-full">
                   <div className="flex justify-between items-start mb-8">
-                    <div className="w-16 h-16 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center shadow-inner group-hover:border-emerald-500/50 transition-colors">
-                      <project.icon className="w-8 h-8 text-emerald-400" />
+                    <div className="w-14 h-14 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center shadow-inner group-hover:border-emerald-500/50 transition-colors">
+                      <project.icon className="w-7 h-7 text-emerald-400" />
                     </div>
                     <a 
                       href={project.url} 
@@ -58,23 +67,23 @@ const Projects: React.FC = () => {
                     </a>
                   </div>
 
-                  <h4 className="text-3xl font-black text-white mb-4 group-hover:text-emerald-400 transition-colors">{project.title}</h4>
-                  <p className="text-zinc-400 leading-relaxed mb-8 text-lg font-light">
+                  <h4 className="text-2xl font-black text-white mb-4 group-hover:text-emerald-400 transition-colors">{project.title}</h4>
+                  <p className="text-zinc-400 leading-relaxed mb-8 text-sm md:text-base font-light flex-grow">
                     {project.description}
                   </p>
 
-                  <div className="flex flex-wrap gap-2 mb-10">
+                  <div className="flex flex-wrap gap-2 mb-8">
                     {project.tags.map(tag => (
-                      <span key={tag} className="px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-bold uppercase tracking-wider">
+                      <span key={tag} className="px-2.5 py-1 rounded-full bg-emerald-500/5 border border-emerald-500/10 text-emerald-400/70 text-[9px] font-bold uppercase tracking-wider">
                         {tag}
                       </span>
                     ))}
                   </div>
 
-                  <div className="mt-auto grid grid-cols-1 sm:grid-cols-3 gap-4 border-t border-zinc-900 pt-8">
+                  <div className="mt-auto grid grid-cols-1 gap-3 border-t border-zinc-900 pt-6">
                     {project.features.map(feature => (
-                      <div key={feature} className="flex items-center gap-2 text-zinc-500 text-sm">
-                        <Zap className="w-3 h-3 text-emerald-400" />
+                      <div key={feature} className="flex items-center gap-2 text-zinc-500 text-[11px] font-medium uppercase tracking-tighter">
+                        <Zap className="w-3 h-3 text-emerald-500" />
                         {feature}
                       </div>
                     ))}

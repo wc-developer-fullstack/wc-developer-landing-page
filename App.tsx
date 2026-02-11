@@ -84,7 +84,7 @@ const App: React.FC = () => {
 
         {/* WhatsApp Button - Corrected and Refined */}
         <a 
-          href="https://wa.me/5519997603480"
+          href="https://wa.me/5519998295069"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative flex items-center justify-center"
